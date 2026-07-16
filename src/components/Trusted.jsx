@@ -51,8 +51,9 @@ export default function Trusted() {
                     </h2>
 
                     <p>
-                        Every recommendation is personalized to your health goals,
-                        lifestyle, and South Asian food traditions.
+                        Every recommendation is tailored to your unique goals,
+                        lifestyle, preferences, and daily routine—making healthy
+                        eating practical, enjoyable, and sustainable.
                     </p>
 
                 </div>

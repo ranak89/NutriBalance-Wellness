@@ -1,6 +1,5 @@
 import "../styles/footer.css";
 import {
-    Instagram,
 
     CalendarDays,
 
@@ -8,7 +7,7 @@ import {
 
     Phone,
 
-    MapPin, HeartHandshakeIcon
+    MapPin, HeartHandshake
 } from "lucide-react";
 
 export default function Footer() {
@@ -96,7 +95,7 @@ export default function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Instagram size={24} />
+                            <span>Instagram</span>
                         </a>
 
                         <a
@@ -104,7 +103,7 @@ export default function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Google Reviews
+                            <span>Google Reviews</span>
                         </a>
 
                     </div>
@@ -118,7 +117,7 @@ export default function Footer() {
                     </p>
 
                     <p>
-                        Designed with <HeartHandshakeIcon/> for healthier living.
+                        Designed with <HeartHandshake/> for healthier living.
                     </p>
 
                 </div>

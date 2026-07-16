@@ -18,9 +18,9 @@ const items = [
         subtitle: "Evidence-Based Coaching",
     },
     {
-        icon:<Leaf size={36}/>,
-        title: "South Asian Nutrition",
-        subtitle: "Culture Meets Science",
+        icon: <Leaf size={36} />,
+        title: "Culturally Inclusive",
+        subtitle: "Nutrition That Fits Your Lifestyle",
     },
     {
         icon:<Laptop size={36}/>,

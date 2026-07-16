@@ -10,23 +10,23 @@ import {
 const values = [
     {
         title: "Evidence-Based",
-        text: "Every recommendation is backed by science—not social media trends.",
-        icon:<Brain size={34} strokeWidth={1.8}/>,
+        text: "Every recommendation is backed by science—not trends or quick fixes.",
+        icon: <Brain size={34} strokeWidth={1.8} />,
     },
     {
-        title: "Culture First",
-        text: "Enjoy traditional South Asian meals while improving your health.",
-        icon:<Leaf size={34} strokeWidth={1.8}/>,
+        title: "Personalized Approach",
+        text: "Every nutrition plan is tailored to your lifestyle, food preferences, culture, and long-term goals.",
+        icon: <Leaf size={34} strokeWidth={1.8} />,
     },
     {
         title: "Family Friendly",
-        text: "Nutrition strategies that fit real family life and busy schedules.",
-        icon:<HeartHandshake size={34} strokeWidth={1.8}/>,
+        text: "Practical nutrition strategies that fit real life, busy schedules, and family routines.",
+        icon: <HeartHandshake size={34} strokeWidth={1.8} />,
     },
     {
-        title: "Sustainable",
-        text: "Small habits that create lifelong transformation.",
-        icon:<Sparkles size={34} strokeWidth={1.8}/>,
+        title: "Sustainable Results",
+        text: "Small, consistent changes that help you build healthy habits for life.",
+        icon: <Sparkles size={34} strokeWidth={1.8} />,
     },
 ];
 

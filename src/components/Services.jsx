@@ -23,15 +23,15 @@ const services = [
         ],
     },
     {
-        icon:<Scale size={24} />,
+        icon: <Scale size={24} />,
         title: "Weight Management",
         description:
-            "Lose weight sustainably without restrictive diets or giving up your favorite South Asian foods.",
+            "Achieve sustainable weight management through personalized nutrition, balanced eating habits, and realistic lifestyle changes—without restrictive diets.",
         features: [
-            "Fat Loss Strategy",
+            "Personalized Nutrition Plan",
             "Meal Planning",
             "Portion Guidance",
-            "Mindset Coaching",
+            "Habit & Mindset Coaching",
         ],
     },
     {

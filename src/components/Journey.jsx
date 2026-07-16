@@ -15,9 +15,9 @@ const steps = [
     },
     {
         number: "03",
-        title: "Receive Your Personalized Plan",
+        title: "Receive Your Personalized Nutrition Plan",
         description:
-            "You'll receive a customized nutrition strategy designed around your lifestyle and South Asian food preferences.",
+            "Based on your assessment, you'll receive a personalized nutrition and lifestyle plan designed to fit your goals, schedule, preferences, and long-term success.",
     },
     {
         number: "04",

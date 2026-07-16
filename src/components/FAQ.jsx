@@ -3,9 +3,9 @@ import "../styles/faq.css";
 
 const faqs = [
     {
-        question: "Do I have to stop eating rice or traditional South Asian food?",
+        question: "Will I have to give up the foods I love?",
         answer:
-            "Absolutely not. My coaching is built around your culture and lifestyle. We'll focus on balance, portion awareness, and healthier habits—not eliminating the foods you love.",
+            "No. Healthy eating shouldn't feel restrictive. Together, we'll create a personalized nutrition plan that includes the foods you enjoy while supporting your health goals through balance, mindful choices, and sustainable habits.",
     },
     {
         question: "Do you offer virtual coaching?",

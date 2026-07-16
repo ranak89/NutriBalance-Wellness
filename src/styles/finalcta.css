@@ -1,0 +1,159 @@
+/* ======================================================
+   FINAL CTA
+====================================================== */
+
+.final-cta{
+
+    background:
+            linear-gradient(
+                    135deg,
+                    var(--color-primary),
+                    #143d24
+            );
+
+    padding:80px 0;
+
+}
+
+.final-cta-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:50px;
+
+    background:
+            rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:30px;
+
+    padding:55px;
+
+}
+
+.final-cta-content{
+
+    max-width:700px;
+
+}
+
+.final-cta .section-tag{
+
+    background:rgba(255,255,255,.12);
+
+    color:white;
+
+}
+
+.final-cta h2{
+
+    color:white;
+
+    font-size:52px;
+
+    line-height:1.1;
+
+    margin:22px 0;
+
+}
+
+.final-cta h2 span{
+
+    color:var(--color-secondary-light);
+
+    display:block;
+
+}
+
+.final-cta p{
+
+    color:rgba(255,255,255,.85);
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+.final-cta-action{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.final-cta-action .btn{
+
+    font-size:18px;
+
+    padding:20px 38px;
+
+}
+
+@media(max-width:992px){
+
+    .final-cta-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .final-cta h2{
+
+        font-size:42px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .final-cta{
+
+        padding:60px 0;
+
+    }
+
+    .final-cta-card{
+
+        padding:35px 25px;
+
+    }
+
+    .final-cta h2{
+
+        font-size:34px;
+
+    }
+
+    .final-cta p{
+
+        font-size:16px;
+
+    }
+
+    .final-cta-action{
+
+        width:100%;
+
+    }
+
+    .final-cta-action .btn{
+
+        width:100%;
+
+    }
+
+}

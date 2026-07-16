@@ -1,0 +1,196 @@
+/* ======================================================
+   FOOTER
+====================================================== */
+
+.footer{
+
+    background:linear-gradient(
+            180deg,
+            #0f1f12 0%,
+            #08120a 100%
+    );
+
+    color:white;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:50px;
+
+    margin-bottom:60px;
+
+}
+
+/* ===========================
+   BRAND
+=========================== */
+
+.footer-logo{
+
+    color:white;
+
+    font-size:38px;
+
+    margin-bottom:18px;
+
+}
+
+.footer-description{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:1.9;
+
+    margin-bottom:28px;
+
+}
+
+.footer-tag{
+
+    display:inline-block;
+
+    padding:12px 20px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:999px;
+
+    color:var(--color-secondary-light);
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   COLUMNS
+=========================== */
+
+.footer-column h3{
+
+    color:white;
+
+    margin-bottom:24px;
+
+    font-size:22px;
+
+}
+
+.footer-column{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.footer-column a{
+
+    color:rgba(255,255,255,.75);
+
+    text-decoration:none;
+
+    margin-bottom:14px;
+
+    transition:.3s;
+
+}
+
+.footer-column a:hover{
+
+    color:var(--color-secondary-light);
+
+    transform:translateX(4px);
+
+}
+
+.footer-column p{
+
+    color:rgba(255,255,255,.75);
+
+    margin-bottom:14px;
+
+}
+
+/* ===========================
+   BOTTOM
+=========================== */
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.footer-bottom p{
+
+    color:rgba(255,255,255,.6);
+
+    font-size:14px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+    .footer-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .footer{
+
+        text-align:center;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-bottom{
+
+        flex-direction:column;
+
+    }
+
+    .footer-column{
+
+        align-items:center;
+
+    }
+
+}
+.contact-card{
+
+    overflow:hidden;
+
+}

@@ -1,0 +1,153 @@
+/* ======================================================
+   FLOATING CONTACT DOCK
+====================================================== */
+
+.floating-dock{
+
+    position:fixed;
+
+    right:28px;
+
+    bottom:28px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+    z-index:9999;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.dock-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    width:240px;
+
+    padding:16px 20px;
+
+    border-radius:18px;
+
+    text-decoration:none;
+
+    color:white;
+
+    backdrop-filter:blur(20px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.18);
+
+    transition:.35s;
+
+}
+
+.dock-item:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ===========================
+   WHATSAPP
+=========================== */
+
+.whatsapp{
+
+    background:#25D366;
+
+}
+
+.whatsapp:hover{
+
+    background:#1fb95a;
+
+}
+
+/* ===========================
+   CALENDLY
+=========================== */
+
+.calendly{
+
+    background:var(--color-secondary);
+
+}
+
+.calendly:hover{
+
+    background:#c78311;
+
+}
+
+/* ===========================
+   TEXT
+=========================== */
+
+.dock-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.dock-text span{
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
+.dock-text small{
+
+    opacity:.85;
+
+    font-size:13px;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+    .floating-dock{
+
+        right:18px;
+
+        bottom:18px;
+
+    }
+
+    .dock-item{
+
+        width:58px;
+
+        height:62px;
+
+        padding:0;
+
+        justify-content:center;
+
+        border-radius:50%;
+
+    }
+
+    .dock-text{
+
+        display:none;
+
+    }
+
+}

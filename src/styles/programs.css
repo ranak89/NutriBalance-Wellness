@@ -1,0 +1,177 @@
+.programs{
+    background:#ffffff;
+}
+
+.programs-heading{
+    text-align:center;
+    max-width:760px;
+    margin:auto auto 70px;
+}
+
+.programs-heading p{
+    margin-top:18px;
+    font-size:18px;
+}
+
+.program-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+.program-card{
+
+    position:relative;
+
+    padding:40px 35px;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    text-align:left;
+
+}
+
+.program-badge{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    background:var(--color-secondary);
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+.program-icon{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.program-card h3{
+
+    font-size:30px;
+
+    color:var(--color-primary);
+
+    margin-bottom:8px;
+
+}
+
+.duration{
+
+    color:var(--color-secondary);
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.program-card p{
+
+    margin-bottom:25px;
+
+}
+
+.program-card ul{
+
+    margin-bottom:35px;
+
+}
+
+.program-card li{
+
+    padding:10px 0;
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.program-card li:last-child{
+
+    border-bottom:none;
+
+}
+
+.program-card .btn{
+
+    margin-top:auto;
+
+}
+
+@media(max-width:1100px){
+
+    .program-grid{
+
+        grid-template-columns:1fr;
+
+        max-width:700px;
+
+        margin:auto;
+
+    }
+
+}
+.featured-program{
+
+    transform:scale(1.05);
+
+    border:3px solid var(--color-secondary);
+
+    box-shadow:0 45px 90px rgba(181,114,10,.18);
+
+}
+
+.featured-program::before{
+
+    content:"RECOMMENDED";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    text-align:center;
+
+    padding:10px;
+
+    background:var(--color-secondary);
+
+    color:white;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+@media(max-width:1100px){
+
+    .featured-program{
+
+        transform:none;
+
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+  "name": "NutriBalance Wellness",
+  "short_name": "NutriBalance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d5c35",
+  "description": "Evidence-based nutrition coaching for South Asian women.",
+  "icons": []
+}

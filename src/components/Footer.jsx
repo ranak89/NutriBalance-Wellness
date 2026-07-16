@@ -29,9 +29,7 @@ export default function Footer() {
                         </h2>
 
                         <p className="footer-description">
-                            Evidence-based nutrition coaching that helps South Asian
-                            women build healthier lifestyles without giving up the
-                            foods they love.
+                            Evidence-based nutrition coaching helping individuals and families build healthier lifestyles through practical, personalized nutrition guidance.
                         </p>
 
                         <div className="footer-tag">

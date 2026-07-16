@@ -42,7 +42,7 @@ const programs = [
             "Progress Tracking",
             "Mindset & Habit Coaching",
             "Family-Friendly Nutrition Strategies",
-            "South Asian Meal Guidance",
+            "Meal Guidance for All Cuisines",
         ],
     },
     {

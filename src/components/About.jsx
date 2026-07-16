@@ -80,10 +80,10 @@ export default function About() {
             </span>
 
                         <h2 className="section-title">
-                            Helping South Asian Women
+                            Helping Individuals & Families
                             <span>
-                Live Healthier Without Giving Up Their Culture
-              </span>
+Build Healthier Lives Through Personalized Nutrition
+</span>
                         </h2>
 
                         <p className="lead-text">
@@ -103,9 +103,13 @@ export default function About() {
                         </p>
 
                         <blockquote>
-
-                            Helping women improve their health without asking
-                            them to give up the foods they love.
+                            Helping people build healthier lifestyles without giving up the foods and traditions they love.
+                            <p>
+                                While I work with clients from all backgrounds,
+                                I have a special passion for creating practical,
+                                culturally inclusive nutrition strategies that
+                                make healthy eating realistic, enjoyable, and sustainable.
+                            </p>
 
                         </blockquote>
 

@@ -21,14 +21,16 @@ export default function Hero() {
             PN1 Certified Nutrition Coach • Canada & India
           </span>
 
-                    <h1 className="section-title hero-title">
-                        Evidence-Based Nutrition
-                        <span> for South Asian Women</span>
+                    <h1>
+                        Personalized Nutrition Coaching
+                        <span> For a Healthier, Happier You</span>
                     </h1>
 
                     <p className="hero-description">
-                        Helping South Asian women build healthier lives without
-                        giving up the foods they love.
+                        Build sustainable healthy habits through evidence-based,
+                        personalized nutrition coaching designed around your
+                        lifestyle, preferences, and long-term wellness goals.
+                        Virtual coaching available across Canada and India.
                     </p>
 
                     <p className="hero-description">
@@ -79,7 +81,10 @@ export default function Hero() {
                             />
 
                             <span>
-        Canada & India
+        Virtual Coaching
+        <small style={{ display: 'block', fontSize: '0.75em', marginTop: '0.25rem', opacity: 0.8 }}>
+            Across Canada & India
+        </small>
     </span>
 
                         </div>
@@ -92,7 +97,7 @@ export default function Hero() {
                             />
 
                             <span>
-        Personalized Coaching
+        Personalized Plans
     </span>
 
                         </div>

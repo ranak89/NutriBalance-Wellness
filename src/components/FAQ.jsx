@@ -10,7 +10,7 @@ const faqs = [
     {
         question: "Do you offer virtual coaching?",
         answer:
-            "Yes. All coaching sessions are conducted virtually, allowing clients across Canada and India to receive personalized nutrition guidance from the comfort of their homes.",
+            "Yes. All coaching sessions are conducted virtually, allowing clients across Canada and Worldwide to receive personalized nutrition guidance from the comfort of their homes.",
     },
     {
         question: "Can you help with weight loss?",

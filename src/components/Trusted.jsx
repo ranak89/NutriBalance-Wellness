@@ -25,7 +25,7 @@ const items = [
     {
         icon:<Laptop size={36}/>,
         title: "Virtual Coaching",
-        subtitle: "Canada & India",
+        subtitle: "Canada & Worldwide",
     },
     {
         icon:<HeartHandshake size={36}/>,

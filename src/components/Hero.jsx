@@ -18,7 +18,7 @@ export default function Hero() {
                 <div className="hero-content fade-left">
 
           <span className="section-tag">
-            PN1 Certified Nutrition Coach • Canada & India
+            PN1 Certified Nutrition Coach • Canada & Worldwide
           </span>
 
                     <h1>
@@ -30,7 +30,7 @@ export default function Hero() {
                         Build sustainable healthy habits through evidence-based,
                         personalized nutrition coaching designed around your
                         lifestyle, preferences, and long-term wellness goals.
-                        Virtual coaching available across Canada and India.
+                        Virtual coaching available across Canada and Worldwide.
                     </p>
 
                     <p className="hero-description">
@@ -83,7 +83,7 @@ export default function Hero() {
                             <span>
         Virtual Coaching
         <small style={{ display: 'block', fontSize: '0.75em', marginTop: '0.25rem', opacity: 0.8 }}>
-            Across Canada & India
+            Across Canada & Worldwide
         </small>
     </span>
 

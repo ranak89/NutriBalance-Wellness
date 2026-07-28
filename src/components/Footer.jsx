@@ -33,7 +33,7 @@ export default function Footer() {
                         </p>
 
                         <div className="footer-tag">
-                            Virtual Coaching Across Canada & India
+                            Virtual Coaching Across Canada & Worldwide
                         </div>
 
                     </div>
@@ -70,7 +70,7 @@ export default function Footer() {
                             <MapPin size={24} />
                         </p>
 
-                        <p>Virtual Across Canada & India</p>
+                        <p>Virtual Across Canada & Worldwide</p>
 
                     </div>
 

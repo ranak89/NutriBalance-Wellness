@@ -50,7 +50,7 @@ export default function Contact() {
                             </div>
 
                             <div className="benefit">
-                                ✓ Virtual Coaching Across Canada & India
+                                ✓ Virtual Coaching Across Canada & Worldwide
                             </div>
 
                             <div className="benefit">
@@ -115,7 +115,7 @@ export default function Contact() {
                                 <strong><Globe size={24} /> Service Area</strong>
 
                                 <p>
-                                    Virtual Appointments Across Canada & India
+                                    Virtual Appointments Across Canada & Worldwide
                                 </p>
 
                             </div>

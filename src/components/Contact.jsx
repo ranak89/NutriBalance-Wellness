@@ -11,6 +11,8 @@ import {
 
 } from "lucide-react";
 
+import { BOOKING_URL } from "./constants.jsx";
+
 export default function Contact() {
     return (
         <section id="contact" className="contact section">
@@ -60,12 +62,12 @@ export default function Contact() {
                         </div>
 
                         <a
-                            href="https://calendly.com/nutribalancewellness"
+                            href={BOOKING_URL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary glow"
                         >
-                            Book Your Discovery Call
+                            Book Your FREE Discovery Call
                         </a>
 
                     </div>

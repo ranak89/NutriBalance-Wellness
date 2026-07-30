@@ -5,7 +5,7 @@ import {
     Globe,
     HeartHandshake
 } from "lucide-react";
-
+import {BOOKING_URL} from "../constants.jsx";
 export default function Hero() {
     return (
         <section id="hero" className="hero section fade-in">
@@ -41,19 +41,19 @@ export default function Hero() {
                     <div className="hero-buttons">
 
                         <a
-                            href="https://calendly.com/nutribalancewellness"
+                            href={BOOKING_URL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary glow"
                         >
-                            Book Your Discovery Call
+                            Book Your FREE Discovery Call
                         </a>
 
                         <a
                             href="#programs"
                             className="btn btn-secondary"
                         >
-                            Explore Programs
+                            View Coaching Programs
                         </a>
 
                     </div>

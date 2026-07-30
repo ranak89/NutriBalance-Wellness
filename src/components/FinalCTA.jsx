@@ -1,4 +1,5 @@
 import "../styles/finalcta.css";
+import {BOOKING_URL} from "../constants.jsx";
 
 export default function FinalCTA() {
     return (
@@ -31,12 +32,12 @@ export default function FinalCTA() {
                     <div className="final-cta-action">
 
                         <a
-                            href="https://calendly.com/nutribalancewellness"
+                            href={BOOKING_URL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary glow"
                         >
-                            Book Your Discovery Call
+                            Book Your FREE Discovery Call
                         </a>
 
                     </div>

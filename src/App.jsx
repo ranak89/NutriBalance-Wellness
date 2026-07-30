@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 import FloatingButtons from "./components/FloatingButtons";
+import Pricing from "./components/Pricing";
 
 
 import "./styles/globals.css";
@@ -31,6 +32,8 @@ export default function App() {
                 <Programs />
 
                 <Services />
+
+                <Pricing />
 
                 <Journey />
 

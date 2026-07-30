@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, CalendarDays, Leaf } from "lucide-react";
 import "../styles/navbar.css";
+import {BOOKING_URL} from "../constants.jsx";
 
 export default function Navbar() {
 
@@ -73,18 +74,18 @@ export default function Navbar() {
                     <a href="#contact" onClick={closeMenu}>Contact</a>
 
                     <a
-                        href="https://calendly.com/nutribalancewellness"
+                        href={BOOKING_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mobile-book-btn"
                     >
-                        Book Discovery Call
+                        Book FREE Discovery Call
                     </a>
 
                 </nav>
 
                 <a
-                    href="https://calendly.com/nutribalancewellness"
+                    href={BOOKING_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="desktop-book-btn"

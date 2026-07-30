@@ -1,5 +1,6 @@
 import "../styles/floating.css";
 import { CalendarDays, MessageCircle } from "lucide-react";
+import {BOOKING_URL} from "../constants.jsx";
 
 export default function FloatingButtons() {
     return (
@@ -20,7 +21,7 @@ export default function FloatingButtons() {
             </a>
 
             <a
-                href="https://calendly.com/nutribalancewellness"
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="dock-item calendly"

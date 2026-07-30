@@ -11,7 +11,7 @@ import {
 
 } from "lucide-react";
 
-import { BOOKING_URL } from "./constants.jsx";
+import { BOOKING_URL } from "../constants.jsx";
 
 export default function Contact() {
     return (

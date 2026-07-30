@@ -1,4 +1,4 @@
-import "./Pricing.css";
+import "../styles/Pricing.css";
 
 const plans = [
     {
